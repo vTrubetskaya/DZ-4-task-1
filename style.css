@@ -1,9 +1,16 @@
 body{margin:10px 200px;}
 
-header{padding:5px; display:flex;justify-content:space-between;background:powderblue;}
-#logo{width:100px;height:100px;}
-#button{list-style:none;text-align:right;align-self:flex-end;}
-header li{display:inline}
+.header{padding:5px; display:flex;justify-content:space-between;}
+
+.header__nav{list-style:none;text-align:right;align-self:flex-end;}
+
+.header_bcgBlue{background:powderblue;}
+
+.logo_size{width:100px;height:100px;}
+
+.button_gen_style {background: none;border:none;}
+
+.li_style {display:inline}
 
 .container{margin:10px;display:flex;justify-content:space-between; gap:5px;}
 .link{list-style:none; font-weight:bold; color:darkblue;}
